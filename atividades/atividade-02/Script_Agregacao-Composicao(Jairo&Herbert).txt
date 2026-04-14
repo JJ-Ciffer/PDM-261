@@ -73,6 +73,9 @@ void main() {
   var dependente3 = Dependente("Pedro Oliveira");
   var dependente4 = Dependente("Ana Costa");
   var dependente5 = Dependente("Lucas Ferreira");
+  var dependente6 = Dependente("Cosmo");
+  var dependente7 = Dependente("Damiao");
+  var dependente8 = Dependente("Raimundo Nonato");
   
   // 2. Criar varios objetos Funcionario
   // 3. Associar os Dependentes criados aos respectivos funcionarios
@@ -80,13 +83,18 @@ void main() {
   var funcionario2 = Funcionario("Ana Souza", [dependente3]);
   var funcionario3 = Funcionario("Roberto Santos", [dependente4, dependente5]);
   var funcionario4 = Funcionario("Fernanda Lima", []); // Sem dependentes
+  var funcionario5 = Funcionario("Jairo Jackson", [dependente6, dependente7]); 
+  var funcionario6 = Funcionario("Herbert", [dependente8]); 
+
   
   // 4. Criar uma lista de Funcionarios
   List<Funcionario> listaFuncionarios = [
     funcionario1,
     funcionario2,
     funcionario3,
-    funcionario4
+    funcionario4,
+    funcionario5,
+    funcionario6
   ];
   
   // 5. Criar um objeto Equipe Projeto chamando o metodo
